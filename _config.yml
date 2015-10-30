@@ -14,8 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
-
+since: 2015
 
 
 
@@ -27,7 +26,7 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -51,14 +50,12 @@ menu_icons:
 
 
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
-
+scheme: Mist
 
 
 
@@ -71,34 +68,34 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+#sidebar: post
 #sidebar: always
-#sidebar: hide
+sidebar: hide
 #sidebar: remove
 
-
-# Social links
-# social:
-  #GitHub:
-  #Others:
 
 # Social Icons
 social_icons:
   enable: true
   # Icon Mappings
   GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-
+  #Twitter: twitter
+  #Weibo: weibo
 
 # Sidebar Avatar
 #avatar:
 
-
 # Social links
-# social:
-  #GitHub:
-  #Others:
+social:
+  GitHub: https://github.com/1dot75cm
+
+# external links
+links:
+  Fedora 中文社区: http://www.fdzh.org
+  Fedora 社区源: http://repo.fdzh.org
+  Fedora Hacker: http://hack.fdzh.org
+  一点情怀: https://1.qinghuai.org
+  Paste: http://p.fdzh.org
 
 
 # TOC in the Sidebar
@@ -112,9 +109,8 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
-
 
 
 
@@ -136,14 +132,14 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night eighties
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Use Lato font
@@ -156,7 +152,7 @@ use_font_lato: true
 # ---------------------------------------------------------------
 
 # MathJax Support
-mathjax:
+mathjax: true
 
 
 # Swiftype Search API Key
@@ -204,12 +200,6 @@ facebook_sdk:
   fb_admin:     #<user_id>
   like_button:  #true
   webmaster:    #true
-
-
-
-
-
-
 
 
 

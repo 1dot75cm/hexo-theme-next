@@ -168,6 +168,8 @@
           {% for tag in post.tags %}
             <a href="{{ url_for(tag.path) }}" rel="tag">#{{ tag.name }}</a>
           {% endfor %}
+    <a href="javascript:window.location=%22http://1.qinghuai.org/stories/new?url=%22+encodeURIComponent(document.location)+%22&amp;title=%22+encodeURIComponent(document.title)" onmouseout="this.style.cssText='background-color:#FFF;padding:4px;float:right;border:1px solid #fff;'" onmouseover="this.style.cssText='background-color:#e1e1e1;padding:4px;float:right;border:1px solid #ccc;'" style="background-color:#fff;padding:4px;float:right;" title="分至一点情怀">Q+</a>
+    <a href="javascript:window.location=%22http://hack.fdzh.org/submitlink?u=%22+encodeURIComponent(document.location)+%22&amp;t=%22+encodeURIComponent(document.title)" onmouseout="this.style.cssText='background-color:#FFF;padding:4px;float:right;border:1px solid #fff;'" onmouseover="this.style.cssText='background-color:#e1e1e1;padding:4px;float:right;border:1px solid #ccc;'" style="background-color:#fff;padding:4px;float:right;" title="分享至 Fed Hacker">H+</a>
         </div>
       {% endif %}
 
